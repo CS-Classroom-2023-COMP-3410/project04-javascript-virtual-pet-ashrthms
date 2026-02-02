@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id="charecter"><img id="char-img" src="p4 icon rest.png"></div>
+    <div class = "control-container">
+        <button class = "controls" id = "sleep" onClick="onSleepClick()">Sleep</button>
+        <button class = "controls" id = "feed" onClick="onFeedClick()">Feed</button>
+        <button class = "controls" id = "rest" onClick="onRestClick()">Rest</button>
+        <button class = "controls" id = "play" onClick="onPlayClick()">Play Music</button>
+        <button class = "controls" id = "think" onClick="onThinkClick()">Think</button>
+        <button class = "controls" id = "reset" onClick="onResetClick()">Reset</button>
+    </div>
+    <div class = "status-display-panel">
+        <ul>
+            <li class="status-display" id = "health">Health: <text id="health-val"></text></li>
+            <li class="status-display" id = "tired">Exaustion: <text id = "tired-val"></text></li>
+            <li class="status-display" id = "happyness">Happyness: <text id = "happy-val"></text></li>
+        </ul>
+    </div>
+    <script src="scripts.js"></script>
+</body>
